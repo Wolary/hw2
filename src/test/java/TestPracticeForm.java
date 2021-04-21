@@ -20,8 +20,9 @@ public class TestPracticeForm {
 
     @Test
     void fillForm() {
+        String formUrl = "https://demoqa.com/automation-practice-form";
         //открываем сайт
-        open("https://demoqa.com/automation-practice-form");
+        open(formUrl);
 
         //заполняем формы
         $("#firstName").setValue("Boka");
